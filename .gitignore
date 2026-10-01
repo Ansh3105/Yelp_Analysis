@@ -1,0 +1,22 @@
+# Environment & Secrets (Crucial: Never commit credentials)
+.env
+*.env
+
+# Large Raw Datasets (Exceeds GitHub's 100MB file limit)
+Raw_data/
+split_reviews/
+*.json
+*.json.gz
+*.dat
+
+# Temporary Testing & Scratch Files
+test_*.py
+test_*.json
+test_*.dat
+
+# Python & IDE caches
+__pycache__/
+*.py[cod]
+*$py.class
+.vscode/
+.idea/

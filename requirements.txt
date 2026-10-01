@@ -1,0 +1,4 @@
+pyspark>=3.5.0
+snowflake-connector-python>=3.5.0
+python-dotenv>=1.0.0
+textblob>=0.17.1
